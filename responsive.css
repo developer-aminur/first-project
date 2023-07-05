@@ -1,0 +1,72 @@
+/*================================
+Tab Layout CSS
+================================*/
+@media screen and (min-width:200px) and (max-width:991px){
+    .mini_menu { margin-left: -32px;}
+    .search_area {
+        margin-right: 0px;
+        margin-left: auto;
+        width: 35%;
+    }
+    .logo_area { margin: 27px 11px;}
+    .social_area ul { margin-top: 30px; margin-right: 2px; }
+    .inner_hero h2 { font-size: 50px;}  
+}
+/*================================
+mobile Layout CSS
+================================*/
+@media screen and (min-width:200px) and (max-width:575px){
+    .mini_menu {
+        width: 100%; 
+    }
+    .mini_menu ul{
+        text-align: center;
+    }
+    .search_area {  margin: auto;}
+    .logo_area {
+        float: none;
+        width: 100%px;
+        margin: 10px auto;
+        text-align: center;
+    }.social_area {
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+    .social_area ul {
+        margin: 0;
+        margin-left: -60px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .social_area ul li {
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .aligenleft{ float: none; }
+    .inner_hero h2 {
+        font-size: 25px;
+        margin-top: 0;
+    }
+    .child_work {
+        float: none;
+        width: 100%;
+    }
+    .child_footer {
+        float: none;
+        width: 100%;
+    }
+    .child_footer textarea {  min-width: 189px;
+    }
+    .child_footer input[type=submit] {display: block;
+    }
+
+input{width:100%;}
+
+.inner_copyright_area p{
+   width:100%;
+float:none;
+}
+
+
